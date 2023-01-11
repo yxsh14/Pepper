@@ -1,0 +1,230 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#home .heading{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #151531;
+}
+#home .content{
+    color: rgba(21, 21, 49, 0.8);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    padding: 20px 200px;
+    text-align: center;
+}
+#home .home2Img{
+    width:70%;
+}
+#home .homeImg{
+    width:90%;
+}
+#home .con{
+    margin: 20px 0px;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: rgba(21, 21, 49, 0.6);
+}
+
+#homeCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 37px 135px;
+    background: #151531;
+    border-radius: 32px;
+    width: 773px;
+    justify-content: center;
+    margin: 48px 0px;
+    position: relative;
+}
+#homeCard .headingCard{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFAFF;
+    text-align: center;
+}
+.button1{
+    background-color: rgba(157, 10, 255, 1);
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-top: 20px;
+}
+#homecard .cardBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button2{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#homeCard .content{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 21px;
+    color: rgba(255, 250, 255, 0.8);
+    padding: 20px 40px;
+    text-align: justify;
+}
+#homeCard .btns{
+    width: 481px;
+    height: 94.98px;
+    background: rgba(255, 250, 255, 0.1);
+    border-radius: 30px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homeCard .b{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#b2{
+    border-right: 1px solid #222235;
+    border-left: 1px solid #222235;
+}
+
+#homeCard1{
+    position: absolute;
+    top: 25px;
+    left: -34px;
+}
+#homeCard2{
+    position: absolute;
+    bottom: 31px;
+    right: -19px;
+}
+.voiletBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#home .allCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#homeCard .cardBtns{
+    
+}
+
+@media (max-width:900px) {
+    #homeCard{
+        width: 90%;
+        padding: 30px 60px;
+    }
+    #homeCard .btns{
+        width: 90%;
+    }
+    #homeCard .b{
+        font-size: 12px;
+    }
+    #home .content {
+        padding: 20px 112px;
+    }
+}
+
+@media (max-width:600px) {
+    #home .content {
+        padding: 20px 0px;
+    }
+    #homeCard .btns {
+        height: 68.98px;
+        padding: 3px 17px;
+    }
+    #home .homeImg {
+        width: 100%;
+    }
+    .button1 {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    #homeCard .button2 {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+}
+@media (max-width:450px) {
+    #homeCard .btns {
+        height: 54.98px;
+        padding: 3px 8px;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+    #homeCard .b {
+        font-size: 7px;
+    }
+    #homeCard .headingCard {
+        font-size: 18px;
+    }
+    #homeCard .cardBtns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .button1 {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .button2 {
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    #homeCard .content {
+        padding: 20px 10px;
+    }
+    #home .heading{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}

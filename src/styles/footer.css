@@ -1,0 +1,32 @@
+.footer{
+    color: white;
+}
+.footer .icons{
+    display: flex;
+    margin-top: 20px;
+}
+.footer .icons svg{
+    margin: 0px 6px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footerClass{
+    background: hsl(240, 40%, 14%);
+    color:#FFFAFF;
+}
+#leftFooterBox{
+    position: relative;
+    left: 0px;
+    top: 23px;
+}
+#rightFooterBox{
+    position: relative;
+    left: 312px;
+    top: 23px;
+}
+#midFooterBox{
+    position: relative;
+    left: 265px;
+    top: 23px;
+}

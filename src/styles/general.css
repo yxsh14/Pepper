@@ -1,0 +1,147 @@
+#root{
+    background: rgba(255, 250, 255, 1);
+}
+#mainBox{
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 15px;
+    background: #9D0AFF;
+    border-radius: 18px;
+    color: white;
+}
+
+#tickBox{
+    display: flex;
+    margin: 10px 20px;
+}
+#tickBox .word{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+
+color: #151531;
+}
+#tickBox .icon{
+    color: white;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+#card{
+    margin: 20px 24px;
+    width: 26%;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 80px rgb(21 21 49 / 5%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 24px;
+}
+#card .icon{
+    height: 40px;
+    width: 40px;
+    background: #9D0AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#card .text{
+    color: rgba(21, 21, 49, 0.8);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+#card .heading{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    text-align: left!important;
+    font-size: 21px!important;
+    margin-top: 15px;
+}
+
+
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    margin-right: 261px;
+}
+.navbar-brand .icon{
+    background-color: rgba(157, 10, 255, 1);
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    color: white;
+    position: relative;
+    top: 4px;
+    margin-right: 9px;
+}
+.navbar-brand svg{
+   display: flex;
+   flex-direction: row;
+}
+.cart{
+    display: flex;
+    position: relative;
+    top: 10px;
+    color: #9D0AFF;
+}
+.cart svg{
+    display: flex;
+    position: relative;
+    top: 2px;
+    right: 5px;
+    font-size: 21px;
+}
+.cart div{
+    display: flex;
+}
+#btn2{
+    margin-right: 7px;
+    border: 1px solid rgba(157, 10, 255, 1);
+    color: rgba(157, 10, 255, 1);
+}
+
+
+@media (max-width:900px) {
+    #mainBox{
+        padding: 0px 30px;
+    }
+    #homaCard{
+        width: 70%;
+    }
+}
+@media (max-width:700px) {
+    #card {
+        width: 41%;
+    }
+}
+@media (max-width:600px) {
+    #card {
+        width: 90%;
+    }
+}

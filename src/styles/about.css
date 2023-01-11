@@ -1,0 +1,57 @@
+#about{
+
+}
+#about .imgConBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 0px;
+}
+#about .imgConBox .content{
+    width: 50%;
+}
+#about .imgConBox .heading{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #151531;
+}
+#about .imgConBox .text{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #151531;
+}
+#about .imgConBox .allTicks{
+    
+}
+#about .imgConBox img{
+    width: 35%;
+}
+
+@media (max-width:600px) {
+    #about .imgConBox {
+        flex-direction: column;
+    }
+    #about .imgConBox img {
+        width: 60%;
+        margin-bottom: 28px;
+    }
+    #about .imgConBox .content {
+        width: 60%;
+    }
+    #aboutB2{
+        flex-direction: column-reverse!important;
+    }
+}
+
+@media (max-width:450px) {
+    #about .imgConBox img {
+        width: 100%;
+    }
+    #about .imgConBox .content {
+        width: 100%;
+    }
+}
